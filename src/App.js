@@ -3,13 +3,15 @@ import Header from './Header';
 import Feature from './Feature';
 import Work from './Work';
 import Unique from './Unique';
+import Overview from './Overview';
+import Track from './Track';
 import './App.css';
 
 function App() {
   return (
     <main className="main">
       <Navbar />
-      <div className="container">
+      <div className="main-content">
         <Header />
         <hr />
         <hr />
@@ -20,6 +22,11 @@ function App() {
         <hr />
         <Unique />
         <hr />
+        <hr />
+        <Overview />
+        <hr />
+        <hr />
+        <Track />
         <hr />
       </div>
     </main>

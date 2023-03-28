@@ -147,7 +147,7 @@
 .feature-h2 {
   line-height: 1.1;
   color: var(--white);
-  margin-bottom: 24px;
+  margin-bottom: 48px;
 }
 
 .feature-h5 {
@@ -290,4 +290,48 @@
 .unique .btn-apple {
   grid-column: 1 / 3;
   justify-self: center;
+}
+
+/* Track */
+.track-left {
+  grid-column: 1 / 2;
+}
+
+.track-h2 {
+  line-height: 1.1;
+  margin-bottom: 48px;
+}
+
+.track-h4 {
+  margin-bottom: 48px;
+}
+
+.track-right {
+  position: relative;
+  grid-column: 2 / 3;
+}
+
+.track-top-img {
+  position: absolute;
+  top: -48px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 450px;
+  border-radius: 48px;
+}
+
+.track-left-img {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  border-radius: 48px;
+  width: 250px;
+}
+
+.track-bottom-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border-radius: 48px;
 }

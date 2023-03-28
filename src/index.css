@@ -73,3 +73,7 @@ hr {
   height: 120px;
   border: transparent;
 }
+
+img {
+  display: block;
+}
