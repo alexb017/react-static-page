@@ -8,7 +8,7 @@
   --secondary-2: #bbb;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
 body {
   font-family: 'Inter', sans-serif;
@@ -37,17 +37,20 @@ a {
 
 h1 {
   font-size: 120px;
-  font-weight: 400;
+  font-weight: 500;
+  line-height: 1.1;
 }
 
 h2 {
   font-size: 80px;
-  font-weight: 400;
+  font-weight: 500;
+  line-height: 1.1;
 }
 
 h3 {
   font-size: 42px;
-  font-weight: 400;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 h4 {

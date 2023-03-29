@@ -6,7 +6,7 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 48px;
+  column-gap: 100px;
 }
 
 /* Navbar */
@@ -108,15 +108,16 @@
 
 /* Header */
 .header-h1 {
-  line-height: 1;
   text-align: center;
   grid-column: 1 / 3;
 }
 
 .header-h1 span {
   display: inline-block;
-  background-color: aquamarine;
+  background: -webkit-linear-gradient(90deg, var(--primary) 0%, var(--primary-2) 100%);
+  background: linear-gradient(90deg, var(--primary) 0%, var(--primary-2) 100%);
   border-radius: 100px;
+  color: var(--white);
   padding: 0 40px;
   margin: 10px 0;
 }
@@ -134,8 +135,7 @@
 
 /* Feature */
 .feature {
-  padding: 48px;
-  padding-top: 300px;
+  padding: 100px;
   border-radius: 48px;
   background-color: var(--black);
 }
@@ -145,13 +145,11 @@
 }
 
 .feature-h2 {
-  line-height: 1.1;
   color: var(--white);
   margin-bottom: 48px;
 }
 
 .feature-h5 {
-  font-size: 24px;
   color: var(--white);
 }
 
@@ -168,7 +166,7 @@
 
 /* Work */
 .work {
-  padding: 48px;
+  padding: 100px;
   border-radius: 48px;
   background-color: var(--white);
 }
@@ -177,10 +175,8 @@
   grid-column: 1 / 3;
 }
 
-.work-h1 {
+.work-h2 {
   grid-column: 1 / 3;
-  font-size: 80px;
-  font-weight: 400;
   text-align: center;
 }
 
@@ -224,10 +220,6 @@
   align-self: center;
 }
 
-.work-h3 {
-  line-height: 1.1;
-}
-
 .work-center-left {
   grid-column: 1 / 2;
   align-self: center;
@@ -259,6 +251,8 @@
 .unique-h2 {
   grid-column: 1 / 3;
   text-align: center;
+  line-height: 1.3;
+  font-weight: 400;
 }
 
 .unique-h2 span {
@@ -334,4 +328,55 @@
   right: 0;
   width: 300px;
   border-radius: 48px;
+}
+
+/* Place */
+.place {
+  background-color: var(--black);
+  border-radius: 48px;
+  padding: 100px;
+}
+
+.place-h3 {
+  grid-column: 1 / 2;
+  color: var(--white);
+}
+
+.place-h5 {
+  grid-column: 2 / 3;
+  color: var(--white);
+}
+
+.places {
+  grid-column: 1 / 3;
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+}
+
+.places-top,
+.places-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.place-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 120px;
+  border-radius: 100px;
+  overflow: hidden;
+  margin: 0 8px;
+}
+
+.place-box img {
+  object-fit: cover;
+}
+
+.place-box-color {
+  background-color: var(--primary-1);
 }
