@@ -21,43 +21,18 @@ function App() {
       <Navbar />
       <div className="main-content">
         <Header />
-        <hr />
-        <hr />
         <Feature />
-        <hr />
         <Work />
-        <hr />
-        <hr />
         <Unique />
-        <hr />
-        <hr />
         <Overview />
-        <hr />
-        <hr />
         <Track />
-        <hr />
-        <hr />
         <Place />
-        <hr />
-        <hr />
         <Definition />
-        <hr />
-        <hr />
         <Review />
-        <hr />
-        <hr />
         <Advantages />
-        <hr />
-        <hr />
         <Price />
-        <hr />
-        <hr />
         <Questions />
-        <hr />
-        <hr />
         <Outro />
-        <hr />
-        <hr />
         <Footer />
       </div>
     </main>
