@@ -8,7 +8,7 @@ export default function Question({ title, content }) {
     }
 
     return (
-        <div className="question question-1">
+        <div className="question grid-col-13">
             <div className="question-title question-1-title">
                 <h3 className="question-1-h3">{title}</h3>
                 <button type="button" className="btn-question" onClick={showQuestionClick}>

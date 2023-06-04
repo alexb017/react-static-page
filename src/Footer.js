@@ -4,7 +4,7 @@ export default function Footer() {
             <div className="container">
                 <div className="footer">
                     <div className="footer-content grid">
-                        <div className="footer-left">
+                        <div className="footer-left grid-col-12">
                             <h3 className="footer-h4">FitrFitnessApp</h3>
                             <ul>
                                 <li>
@@ -38,7 +38,7 @@ export default function Footer() {
                                 <p>&copy; Fitr 2023.</p>
                             </div>
                         </div>
-                        <div className="footer-right">
+                        <div className="footer-right grid-col-23">
                             <h4>We're here to help</h4>
                             <h5>If there's anything you need to know that's not covered on our website, then please get in touch.</h5>
                             <button type="button" className="btn-footer">
